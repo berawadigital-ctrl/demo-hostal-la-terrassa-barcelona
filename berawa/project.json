@@ -1,0 +1,68 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hostal-la-terrassa-barcelona",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-29T08:35:00+01:00",
+ "updated_at": "2026-10-29T08:35:00+01:00",
+ "business": {
+  "name": "Hostal La Terrassa",
+  "legal_name": "S3G 111, S.A.",
+  "registry_ids": [
+   "NIF A58741547"
+  ],
+  "url": "https://laterrassa-barcelona.com/",
+  "domain": "laterrassa-barcelona.com",
+  "municipality": "Barcelona",
+  "province": "Barcelona",
+  "address": "Carrer Junta de Comerç, 11 · 08001 Barcelona",
+  "phones": [
+   "+34 93 302 51 74"
+  ],
+  "emails": [
+   "reservations@laterrassa-barcelona.com"
+  ],
+  "sector": "hostal en Ciutat Vella"
+ },
+ "rating": {
+  "value": 4.3,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Hostal+La+Terrassa/@41.3800431,2.171395,17z/data=!4m9!3m8!1s0x12a4a258902514db:0xe67c5b02e6f68779!5m2!4m1!1i2!8m2!3d41.3800431!4d2.171395!16s%2Fg%2F1vgn4wr8?hl=es&entry=ttu&g_ep=EgoyMDI2MTAyNy4wIKXMDSoASAFQAw%3D%3D",
+  "date": "2026-10-29T06:55:06+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": {
+   "es": "https://laterrassa-barcelona.com/reserva/?lang=es",
+   "ca": "https://laterrassa-barcelona.com/reserva/?lang=ca",
+   "en": "https://laterrassa-barcelona.com/book/",
+   "fr": "https://laterrassa-barcelona.com/reservation/?lang=fr"
+  },
+  "note": "Los botones Reservar van a la pagina de reserva de su propia web en cada idioma (reserva/book/reservation, con el buscador de disponibilidad de su web). La demo no construye ningun motor."
+ },
+ "audit_original": {
+  "url": "https://laterrassa-barcelona.com/",
+  "date": "2026-10-29T07:52:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: alojamiento con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}

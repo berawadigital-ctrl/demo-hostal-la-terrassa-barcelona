@@ -1,0 +1,455 @@
+{
+ "url": "file:///tmp/zip-hostal-la-terrassa-barcelona/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tiene?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Tiene tres tipos de habitación doble con baño privado: Básica Exterior (10,50 m², pequeño balcón), Básica Interior (11 m², da a un espacio i"
+    },
+    {
+     "q": "¿Qué tienen las habitaciones?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Todas las habitaciones tienen baño privado, aire acondicionado o calefacción (según la estación), ropa de cama, artículos de aseo y wifi gra"
+    },
+    {
+     "q": "¿Hay desayuno?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "El desayuno no está incluido en el precio de la habitación. Hay un desayuno continental opcional, de 8:00 a 11:00, con bebidas calientes, zu"
+    },
+    {
+     "q": "¿Hay parking?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "El hostal no tiene parking, pero justo al lado está el parking San Agustín y hay varios más en la zona."
+    },
+    {
+     "q": "¿Es accesible para silla de ruedas?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Ojo: hay que subir unas 25 escaleras para llegar al ascensor (planta de recepción). Si tienes movilidad reducida, consúltalo antes en reserv"
+    },
+    {
+     "q": "¿Admiten mascotas?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "No, no se admiten mascotas."
+    },
+    {
+     "q": "¿Dónde está?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Está en el Carrer Junta de Comerç, 11, 08001 Barcelona, en Ciutat Vella: a unos 3 minutos de La Boqueria y las Ramblas, 15 de plaça de Catal"
+    },
+    {
+     "q": "¿Cómo llegar desde el aeropuerto?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Desde el aeropuerto: Aerobús hasta Plaza Catalunya y 10 minutos a pie; o metro L9 (T1 o T2) hasta Zona Universitaria, luego L3 hasta Liceu y"
+    },
+    {
+     "q": "¿A qué hora es el check-in?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "El check-in es a partir de las 14:00. Si llegas antes o el día de salida, puedes dejar el equipaje gratis en recepción. Las cunas (gratis y "
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar con el botón Reservar (va a la página de reserva de su web, que anuncia mejor precio y el código de descuento TSABCN; el 1% "
+    },
+    {
+     "q": "¿Cuál es el correo?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Teléfono +34 93 302 51 74 y correo reservations@laterrassa-barcelona.com."
+    },
+    {
+     "q": "¿Quién es el titular?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Su aviso legal indica como titular a S3G 111, S.A., NIF A58741547, con domicilio en Junta de Comerç, 11, Barcelona."
+    },
+    {
+     "q": "¿Cuánto cuesta una noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 93 302 51 74 · reservations@laterrassa-barcelona.com."
+    },
+    {
+     "q": "Confírmame que hay una habitación libre mañana",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar con el botón Reservar (va a la página de reserva de su web, que anuncia mejor precio y el código de descuento TSABCN; el 1% "
+    },
+    {
+     "q": "¿Tienen gimnasio?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 93 302 51 74 · reservations@laterrassa-barcelona.com."
+    },
+    {
+     "q": "¿Hay piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 93 302 51 74 · reservations@laterrassa-barcelona.com."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tiene?",
+    "¿Hay desayuno?",
+    "¿Hay parking?",
+    "¿Cómo se reserva?"
+   ]
+  },
+  "ca": {
+   "textos_iguales_al_es": [
+    "book",
+    "hero_k",
+    "intro_k",
+    "send",
+    "stat0",
+    "stat3",
+    "svc2",
+    "room2_n",
+    "menu",
+    "langs_label"
+   ],
+   "chat": [
+    {
+     "q": "Quines habitacions té?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Té tres tipus d'habitació doble amb bany privat: Bàsica Exterior (10,50 m², petit balcó), Bàsica Interior (11 m², dona a un espai interior) "
+    },
+    {
+     "q": "Què tenen les habitacions?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Totes les habitacions tenen bany privat, aire condicionat o calefacció (segons l'estació), roba de llit, articles de tocador i wifi gratis. "
+    },
+    {
+     "q": "Hi ha esmorzar?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "L'esmorzar no està inclòs en el preu de l'habitació. Hi ha un esmorzar continental opcional, de 8:00 a 11:00, amb begudes calentes, sucs, cr"
+    },
+    {
+     "q": "Hi ha pàrquing?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "L'hostal no té pàrquing, però just al costat hi ha el pàrquing San Agustín i n'hi ha diversos més a la zona."
+    },
+    {
+     "q": "És accessible amb cadira de rodes?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Compte: cal pujar unes 25 escales per arribar a l'ascensor (planta de recepció). Si tens mobilitat reduïda, consulta-ho abans a reservations"
+    },
+    {
+     "q": "Admeteu mascotes?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "No, no s'admeten mascotes."
+    },
+    {
+     "q": "On és?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "És al Carrer Junta de Comerç, 11, 08001 Barcelona, a Ciutat Vella: a uns 3 minuts de La Boqueria i les Rambles, 15 de la plaça de Catalunya "
+    },
+    {
+     "q": "Com arribar des de l'aeroport?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Des de l'aeroport: Aerobús fins a plaça Catalunya i 10 minuts a peu; o metro L9 (T1 o T2) fins a Zona Universitària, després L3 fins a Liceu"
+    },
+    {
+     "q": "A quina hora és el check-in?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "El check-in és a partir de les 14:00. Si arribes abans o el dia de sortida, pots deixar l'equipatge gratis a recepció. Els bressols (gratis "
+    },
+    {
+     "q": "Com reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pots reservar amb el botó Reservar (va a la pàgina de reserva del seu web, que anuncia millor preu i el codi de descompte TSABCN; l'1% d'aqu"
+    },
+    {
+     "q": "Quin és el correu?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Telèfon +34 93 302 51 74 i correu reservations@laterrassa-barcelona.com."
+    },
+    {
+     "q": "Qui és el titular?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "El seu avís legal indica com a titular S3G 111, S.A., NIF A58741547, amb domicili a Junta de Comerç, 11, Barcelona."
+    },
+    {
+     "q": "Quant costa una nit?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 93 302 51 74 · reservations@laterrassa-barcelona.com."
+    },
+    {
+     "q": "Confirma'm que hi ha una habitació lliure demà",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pots reservar amb el botó Reservar (va a la pàgina de reserva del seu web, que anuncia millor preu i el codi de descompte TSABCN; l'1% d'aqu"
+    },
+    {
+     "q": "Teniu gimnàs?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 93 302 51 74 · reservations@laterrassa-barcelona.com."
+    },
+    {
+     "q": "Hi ha piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 93 302 51 74 · reservations@laterrassa-barcelona.com."
+    }
+   ],
+   "chips": [
+    "Quines habitacions té?",
+    "Hi ha esmorzar?",
+    "Hi ha pàrquing?",
+    "Com es reserva?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "stat0",
+    "room2_n"
+   ],
+   "chat": [
+    {
+     "q": "What rooms does it have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "It has three double room types with private bathroom: Basic Exterior (10,50 m², small balcony), Basic Interior (11 m², facing an inner space"
+    },
+    {
+     "q": "What do the rooms have?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "All rooms have a private bathroom, air conditioning or heating (depending on the season), bedding, free toiletries and free wifi. There is a"
+    },
+    {
+     "q": "Is there breakfast?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Breakfast is not included in the room price. There is an optional continental breakfast, from 8:00 to 11:00, with hot drinks, juices, croiss"
+    },
+    {
+     "q": "Is there parking?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "The hostel has no parking, but the San Agustín car park is next door and there are several more in the area."
+    },
+    {
+     "q": "Is it wheelchair accessible?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Note: you must take about 25 steps to reach the elevator (reception floor). If you have reduced mobility, ask first at reservations@laterras"
+    },
+    {
+     "q": "Are pets allowed?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "No, pets are not allowed."
+    },
+    {
+     "q": "Where is it?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "It is at Carrer Junta de Comerç, 11, 08001 Barcelona, in Ciutat Vella: about 3 minutes from La Boqueria and Las Ramblas, 15 from Plaça de Ca"
+    },
+    {
+     "q": "How to get there from the airport?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "From the airport: Aerobus to Plaza Catalunya and a 10-minute walk; or metro L9 (T1 or T2) to Zona Universitaria, then L3 to Liceu and a 5-mi"
+    },
+    {
+     "q": "What time is check-in?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Check-in is from 14:00. If you arrive early or on your departure day, you can leave your luggage at reception free of charge. Cots (free and"
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book with the Book button (it goes to its website's booking page, which advertises the best price and the discount code TSABCN; 1% o"
+    },
+    {
+     "q": "What is the email?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Phone +34 93 302 51 74 and email reservations@laterrassa-barcelona.com."
+    },
+    {
+     "q": "Who is the owner?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Its legal notice names S3G 111, S.A., NIF A58741547, at Junta de Comerç, 11, Barcelona, as the owner."
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 93 302 51 74 · reservations@laterrassa-barcelona.com."
+    },
+    {
+     "q": "Confirm that there is a free room tomorrow",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book with the Book button (it goes to its website's booking page, which advertises the best price and the discount code TSABCN; 1% o"
+    },
+    {
+     "q": "Do you have a gym?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 93 302 51 74 · reservations@laterrassa-barcelona.com."
+    },
+    {
+     "q": "Is there a swimming pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 93 302 51 74 · reservations@laterrassa-barcelona.com."
+    }
+   ],
+   "chips": [
+    "What rooms does it have?",
+    "Is there breakfast?",
+    "Is there parking?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "intro_k",
+    "stat0",
+    "room2_n"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres a-t-il ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il propose trois types de chambre double avec salle de bains privée : Basica Exterior (10,50 m², petit balcon), Basica Interior (11 m², sur "
+    },
+    {
+     "q": "Qu'ont les chambres ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Toutes les chambres ont salle de bains privée, climatisation ou chauffage (selon la saison), linge de lit, articles de toilette et wifi grat"
+    },
+    {
+     "q": "Y a-t-il un petit-déjeuner ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Le petit-déjeuner n'est pas inclus dans le prix de la chambre. Un petit-déjeuner continental est proposé en option, de 8:00 à 11:00, avec bo"
+    },
+    {
+     "q": "Y a-t-il un parking ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "L'hostal n'a pas de parking, mais le parking San Agustín est juste à côté et il y en a plusieurs autres dans le quartier."
+    },
+    {
+     "q": "Est-il accessible en fauteuil roulant ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Attention : il faut monter environ 25 marches pour atteindre l'ascenseur (étage de la réception). En cas de mobilité réduite, renseignez-vou"
+    },
+    {
+     "q": "Les animaux sont-ils admis ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Non, les animaux ne sont pas admis."
+    },
+    {
+     "q": "Où est-ce ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Il se trouve Carrer Junta de Comerç, 11, 08001 Barcelone, dans la Ciutat Vella : à environ 3 minutes de La Boqueria et des Ramblas, 15 de la"
+    },
+    {
+     "q": "Comment venir depuis l'aéroport ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Depuis l'aéroport : Aerobús jusqu'à Plaza Catalunya puis 10 minutes à pied ; ou métro L9 (T1 ou T2) jusqu'à Zona Universitaria, puis L3 jusq"
+    },
+    {
+     "q": "À quelle heure est le check-in ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Le check-in est à partir de 14:00. Si vous arrivez tôt ou le jour du départ, vous pouvez laisser vos bagages gratuitement à la réception. Le"
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver avec le bouton Réserver (vers la page de réservation de son site, qui annonce le meilleur prix et le code de réduction "
+    },
+    {
+     "q": "Quel est l'e-mail ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Téléphone +34 93 302 51 74 et e-mail reservations@laterrassa-barcelona.com."
+    },
+    {
+     "q": "Qui est le titulaire ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Sa mention légale indique comme titulaire S3G 111, S.A., NIF A58741547, Junta de Comerç, 11, Barcelone."
+    },
+    {
+     "q": "Combien coûte une nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 93 302 51 74 · reservations@laterrassa-barcelona.com."
+    },
+    {
+     "q": "Confirmez-moi qu'il y a une chambre libre demain",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver avec le bouton Réserver (vers la page de réservation de son site, qui annonce le meilleur prix et le code de réduction "
+    },
+    {
+     "q": "Avez-vous une salle de sport ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 93 302 51 74 · reservations@laterrassa-barcelona.com."
+    },
+    {
+     "q": "Y a-t-il une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 93 302 51 74 · reservations@laterrassa-barcelona.com."
+    }
+   ],
+   "chips": [
+    "Quelles chambres a-t-il ?",
+    "Y a-t-il un petit-déjeuner ?",
+    "Y a-t-il un parking ?",
+    "Comment réserver ?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}

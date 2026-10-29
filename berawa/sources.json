@@ -1,0 +1,67 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://laterrassa-barcelona.com/",
+ "read_at": "2026-10-29T08:05:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://laterrassa-barcelona.com/?lang=es",
+   "sha256": "8574679adc0029c7d301410169ab3411014253796b2955d50c3eb34784f70636",
+   "chars": 1117
+  },
+  {
+   "url": "https://laterrassa-barcelona.com/aviso-legal/",
+   "sha256": "1c6368671a7eceb5bacbcaa5fa6f37a18d4d87117fbbea658ad51856727dd5aa",
+   "chars": 7621
+  },
+  {
+   "url": "https://laterrassa-barcelona.com/book/",
+   "sha256": "a3b6f21c8cd4c574c9cf430902725105c10bbd8f2ccc7075ee42298ef1ad82f7",
+   "chars": 822
+  },
+  {
+   "url": "https://laterrassa-barcelona.com/chambres/basica-exterior/?lang=fr",
+   "sha256": "5e8084ca4d2514b5cf8b12c3a7575aa7929ec2bf7943966ed31728ba01ccf73f",
+   "chars": 902
+  },
+  {
+   "url": "https://laterrassa-barcelona.com/chambres/basica-interior/?lang=fr",
+   "sha256": "e8c52284a26d1ce7be115c8557939146ff4c09d558dfbefa78987b5135938f00",
+   "chars": 972
+  },
+  {
+   "url": "https://laterrassa-barcelona.com/contacte/?lang=fr",
+   "sha256": "b80b21d15668006860ef9fa3c0e014d3c93f54a7bf8274220fc3fc2cc55e8274",
+   "chars": 651
+  },
+  {
+   "url": "https://laterrassa-barcelona.com/rooms/st-interior-2/",
+   "sha256": "185c91c6fe2deacad6da4d108f33ae234be319dceb0dc7c78199465cdd010376",
+   "chars": 766
+  },
+  {
+   "url": "https://laterrassa-barcelona.com/the-hostel/",
+   "sha256": "011a04f84ec74bd61cc4bf42eed7c74b75f611fedc4444c6630708fe75111868",
+   "chars": 3074
+  }
+ ],
+ "other_pages_read": [
+  "https://laterrassa-barcelona.com",
+  "https://laterrassa-barcelona.com/",
+  "https://laterrassa-barcelona.com/?lang=ca",
+  "https://laterrassa-barcelona.com/?lang=fr",
+  "https://laterrassa-barcelona.com/?lang=it",
+  "https://laterrassa-barcelona.com/alloggio/?lang=it",
+  "https://laterrassa-barcelona.com/camere/?lang=it",
+  "https://laterrassa-barcelona.com/camere/chapelle/?lang=it",
+  "https://laterrassa-barcelona.com/camere/esterna-base/?lang=it",
+  "https://laterrassa-barcelona.com/chambres/?lang=fr",
+  "https://laterrassa-barcelona.com/chambres/chapelle/?lang=fr",
+  "https://laterrassa-barcelona.com/contatto/?lang=it",
+  "https://laterrassa-barcelona.com/reserva/?lang=es",
+  "https://laterrassa-barcelona.com/reservation/?lang=fr",
+  "https://laterrassa-barcelona.com/riserva/?lang=it",
+  "https://laterrassa-barcelona.com/rooms/",
+  "https://laterrassa-barcelona.com/the-hostel/?lang=fr"
+ ]
+}
